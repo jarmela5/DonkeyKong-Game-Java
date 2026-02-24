@@ -27,11 +27,6 @@ Um jogo Donkey Kong implementado em Java com padrões de design orientado a obje
 4. Colete items, derrote inimigos e chegue à Princesa
 5. Complete os 3 níveis para ganhar!
 
-
-## Sokoban Game Project
-
-Este é um projeto desenvolvido em Java no âmbito da unidade curricular de Programação Orientada a Objetos (POO). O objetivo principal é a implementação de um motor de jogo baseado em grelha (grid-based) utilizando princípios de POO e padrões de desenho.
-
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
@@ -52,6 +47,7 @@ images/                 # Assets gráficos (sprites e ícones)
 
 - José Jarmela (122663)
 - Tiago Nogueira (122693)
+
 
 
 
