@@ -14,6 +14,4 @@ out/
 .vscode/
 
 # --- Ficheiros de Estado do Jogo (Opcional) ---
-# Se queres que o ranking seja partilhado com todos, comenta a linha abaixo.
-# Se queres que cada pessoa tenha o seu próprio ranking, mantém.
 top10_scores.txt
