@@ -1,52 +1,54 @@
 ﻿# Donkey Kong - Java Edition
 
-Um jogo Donkey Kong implementado em Java com padrões de design orientado a objetos.
+A Donkey Kong game implemented in Java using object-oriented design patterns.
 
-## Características
+## Features
 
--  3 níveis diferentes com dificuldade progressiva
--  Múltiplos inimigos: Gorila, Bastões (Bats), Carne (Beef)
--  Sistema de armas e power-ups: Banana, Bomba, Espada
--  Mecânicas diversas: Escadas, Portas, Armadilhas ocultas
--  Sistema de pontuação com Top 10 ranking
--  Interface gráfica com tiles de imagem
--  Padrão Observer para sincronização de eventos
+- 3 different levels with progressive difficulty
+- Multiple enemies: Gorilla, Bats, Beef
+- Weapon and power-up system: Banana, Bomb, Sword
+- Diverse mechanics: Ladders, Doors, Hidden Traps
+- Scoring system with a Top 10 ranking
+- Graphical interface using image tiles
+- Observer pattern for event synchronization
 
-## Tecnologias
+## Technologies
 
-- **Linguagem**: Java
-- **Arquitetura**: MVC com padrão Observer
-- **GUI**: Sistema de tiles com imagens
-- **Estrutura**: OOP com interfaces e classes abstratas
+- **Language**: Java
+- **Architecture**: MVC with Observer pattern
+- **GUI**: Tile-based system using images
+- **Structure**: OOP with interfaces and abstract classes
 
-## Como Jogar
+## How to Play
 
-1. Compile o projeto
-2. Execute `Main.java`
-3. Navegue com as setas do teclado
-4. Colete items, derrote inimigos e chegue à Princesa
-5. Complete os 3 níveis para ganhar!
+1. Compile the project
+2. Run `Main.java`
+3. Move using the arrow keys
+4. Collect items, defeat enemies, and reach the Princess
+5. Complete all 3 levels to win!
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado da seguinte forma:
+The project is organized as follows:
 
 ```text
 src/
-├── objects/            # Entidades do jogo (Jogadores, Caixas, Paredes, etc.)
+├── objects/ # Game entities (Players, Crates, Walls, etc.)
 ├── pt/iscte/poo/
-│   ├── game/           # Lógica principal e gestão do estado do jogo
-│   ├── gui/            # Interface gráfica (ImageMatrixGUI)
-│   ├── observer/       # Implementação do Padrão de Desenho Observer
-│   └── utils/          # Classes utilitárias (Vetores, Direções, etc.)
-rooms/                  # Ficheiros de texto com a configuração dos níveis
-images/                 # Assets gráficos (sprites e ícones)
+│ ├── game/ # Core logic and game state management
+│ ├── gui/ # Graphical interface (ImageMatrixGUI)
+│ ├── observer/ # Observer Design Pattern implementation
+│ └── utils/ # Utility classes (Vectors, Directions, etc.)
+rooms/ # Text files defining level layouts
+images/ # Graphic assets (sprites and icons)
 
 ```
-## Autores
+
+## Authors
 
 - José Jarmela (122663)
 - Tiago Nogueira (122693)
+
 
 
 
