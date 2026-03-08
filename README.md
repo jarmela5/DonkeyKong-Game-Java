@@ -46,8 +46,9 @@ images/ # Graphic assets (sprites and icons)
 
 ## Authors
 
-- José Jarmela (122663)
-- Tiago Nogueira (122693)
+- José Jarmela 
+- Tiago Nogueira 
+
 
 
 
